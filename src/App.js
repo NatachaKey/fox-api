@@ -25,7 +25,7 @@ state={
   render() {
     return (
       <div>
-         <img src={this.state.image} alt="foxy"/>  
+         <img src={this.state.image} alt="foxy" width="300px"/>  
          <div>
           <button onClick={this.handleCallApi}>Call Api</button>
          </div>
